@@ -384,21 +384,21 @@ blog_nav:
   - title: MySQL
     children:
       - title: MySQL InnoDB 引擎
-        url: /blog/2023-05-28-MySQL-InnoDB-引擎/
+        url: /blog/mysql/MySQL-InnoDB引擎/
       - title: MySQL 日志
-        url: /blog/2023-05-28-MySQL-日志/
+        url: /blog/mysql/MySQL-日志/
       - title: MySQL 索引
-        url: /blog/2023-05-28-MySQL-索引/
+        url: /blog/mysql/MySQL-索引/
       - title: MySQL 事务
-        url: /blog/2023-05-28-MySQL-事务/
+        url: /blog/mysql/MySQL-事务/
       - title: MySQL 幻读
-        url: /blog/2023-05-28-MySQL-幻读/
+        url: /blog/mysql/MySQL-幻读/
       - title: MySQL SQL优化
-        url: /blog/2023-05-28-MySQL-SQL优化/
+        url: /blog/mysql/MySQL-SQL优化/
       - title: MySQL 分库分表
-        url: /blog/2023-05-28-MySQL-分库分表/
+        url: /blog/mysql/MySQL-分库分表/
       - title: MySQL 集群
-        url: /blog/2023-05-28-MySQL-集群/
+        url: /blog/mysql/MySQL-集群/
   - title: Oracle
   - title: PostgreSQL
   - title: MongoDB
