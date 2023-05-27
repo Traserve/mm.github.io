@@ -2,18 +2,20 @@
 main:
   - title: "Menu"
     url: ""
-  - title: "Posts"
-    url: /year-archive/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
+  - title: "算法"
+    url: /categories/#algorithm/
+  - title: "博客"
+    url: /categories/#blog/
+  - title: "随笔"
+    url: /categories/#essay/
+  - title: "标签"
     url: /tags/
   # - title: "Pages"
   #   url: /page-archive/
   # - title: "Collections"
   #   url: /collection-archive/
-  - title: "Quick-Start Guide"
-    url: /splash-page/
+  # - title: "Quick-Start Guide"
+  #   url: /splash-page/
   # - title: "External Link"
   #   url: https://google.com
 
@@ -35,8 +37,8 @@ docs:
             url: /algorithm/0977.-有序数组的平方/
           - title: 209. 长度最小的子数组
             url: /algorithm/0209.-长度最小的子数组/
-          - title: 59. 螺旋矩阵II
-            url: /algorithm/0059.-螺旋矩阵II/
+          - title: 59. 螺旋矩阵 II
+            url: /algorithm/0059.-螺旋矩阵-II/
           - title: 189. 轮转数组
             url: /algorithm/0189.-轮转数组/
       - title: 链表
