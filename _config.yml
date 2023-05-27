@@ -282,8 +282,8 @@ defaults:
   # _posts
   - scope:
       path: ""
-      # type: posts
-      type: docs
+      type: posts
+      # type: docs
     values:
       layout: single
       # 作者侧边栏
