@@ -286,7 +286,7 @@ defaults:
       type: docs
     values:
       layout: single
-      // 作者侧边栏
+      # 作者侧边栏
       author_profile: false
       # 显示阅读时间
       read_time: true
