@@ -282,7 +282,6 @@ compress_html:
 defaults:
   # _posts
   - scope:
-      path: "_posts/algorithm"
       type: posts
     values:
       layout: single
@@ -304,6 +303,24 @@ defaults:
       # 宽页面
       classes: wide
       teaser: /assets/images/program.jpg
+
+  - scope:
+      path: "_posts/algorithm"
+    values:
       sidebar:
-        title: "导航"
+        title: "算法"
         nav: "algorithm_nav"
+
+  - scope:
+      path: "_posts/blog"
+    values:
+      sidebar:
+        title: "技术"
+        nav: "blog_nav"
+  
+  - scope:
+      path: "_posts/essay"
+    values:
+      sidebar:
+        title: "随笔"
+        nav: "essay_nav"

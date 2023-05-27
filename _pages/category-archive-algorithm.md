@@ -3,6 +3,6 @@ layout: categories
 permalink: /categories/algorithm/
 author_profile: true
 sidebar:
-        title: "导航"
+        title: "算法"
         nav: "algorithm_nav"
 ---

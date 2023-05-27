@@ -3,11 +3,11 @@ main:
   # - title: "Menu"
   #   url: ""
   - title: "算法"
-    url: /categories/#algorithm/
-  - title: "博客"
-    url: /categories/#blog/
+    url: /categories/algorithm/
+  - title: "技术博客"
+    url: /categories/blog/
   - title: "随笔"
-    url: /categories/#essay/
+    url: /categories/essay/
   - title: "标签"
     url: /tags/
   # - title: "Pages"
@@ -20,72 +20,67 @@ main:
   #   url: https://google.com
 
 algorithm_nav:
-  - title: 算法
+  - title: 排序
+  - title: 数组
     children:
-      - title: 排序
-      - title: 数组
-        children:
-          - title: 704. 二分查找
-            url: /algorithm/0704.-二分查找/
-          - title: 27. 移除元素
-            url: /algorithm/0027.-移除元素/
-          - title: 26. 删除有序数组中的重复项
-            url: /algorithm/0026.-删除有序数组中的重复项/
-          - title: 80. 删除有序数组中的重复项-II
-            url: /algorithm/0080.-删除有序数组中的重复项-II/
-          - title: 977. 有序数组的平方
-            url: /algorithm/0977.-有序数组的平方/
-          - title: 209. 长度最小的子数组
-            url: /algorithm/0209.-长度最小的子数组/
-          - title: 59. 螺旋矩阵 II
-            url: /algorithm/0059.-螺旋矩阵-II/
-          - title: 189. 轮转数组
-            url: /algorithm/0189.-轮转数组/
-      - title: 链表
-        children:
-          - title: 面试题-02.07.-链表相交
-            url: /algorithm/面试题-02.07.-链表相交/
-      - title: 哈希表
-      - title: 字符串
-      - title: 双指针
-      - title: 队列和栈
-      - title: 二叉树
-      - title: 回溯
-      - title: 贪心
-      - title: 动态规划
-      - title: 单调栈
-      - title: DFS
-      - title: 并查集
+      - title: 704. 二分查找
+        url: /algorithm/0704.-二分查找/
+      - title: 27. 移除元素
+        url: /algorithm/0027.-移除元素/
+      - title: 26. 删除有序数组中的重复项
+        url: /algorithm/0026.-删除有序数组中的重复项/
+      - title: 80. 删除有序数组中的重复项-II
+        url: /algorithm/0080.-删除有序数组中的重复项-II/
+      - title: 977. 有序数组的平方
+        url: /algorithm/0977.-有序数组的平方/
+      - title: 209. 长度最小的子数组
+        url: /algorithm/0209.-长度最小的子数组/
+      - title: 59. 螺旋矩阵 II
+        url: /algorithm/0059.-螺旋矩阵-II/
+      - title: 189. 轮转数组
+        url: /algorithm/0189.-轮转数组/
+  - title: 链表
+    children:
+      - title: 面试题-02.07.-链表相交
+        url: /algorithm/面试题-02.07.-链表相交/
+  - title: 哈希表
+  - title: 字符串
+  - title: 双指针
+  - title: 队列和栈
+  - title: 二叉树
+  - title: 回溯
+  - title: 贪心
+  - title: 动态规划
+  - title: 单调栈
+  - title: DFS
+  - title: 并查集
 
-  - title: Customization
-    children:
-      - title: "Configuration"
-        url: /docs/configuration/
-      - title: "Navigation"
-        url: /docs/navigation/
-      - title: "UI Text"
-        url: /docs/ui-text/
-      - title: "Authors"
-        url: /docs/authors/
-      - title: "Layouts"
-        url: /docs/layouts/
+blog_nav:
+  - title: Java
+  - title: Spring
+  - title: Spring MVC
+  - title: Spring Boot
+  - title: Spring Cloud
+  - title: Dubbo
+  - title: MyBatis
+  - title: MySQL
+  - title: Oracle
+  - title: PostgreSQL
+  - title: MongoDB
+  - title: Redis
+  - title: Kafka
+  - title: RocketMQ
+  - title: 架构
+  - title: Netty
+  - title: Hadoop
+  - title: Hive
+  - title: Impala
+  - title: HBase
+  - title: ElasticSearch
+  - title: ClickHouse
+  - title: Spark
+  - title: Flink
 
-  - title: Content
-    children:
-      - title: "Working with Posts"
-        url: /docs/posts/
-      - title: "Working with Pages"
-        url: /docs/pages/
-      - title: "Working with Collections"
-        url: /docs/collections/
-      - title: "Helpers"
-        url: /docs/helpers/
-      - title: "Utility Classes"
-        url: /docs/utility-classes/
-
-  - title: Extras
-    children:
-      - title: "Stylesheets"
-        url: /docs/stylesheets/
-      - title: "JavaScript"
-        url: /docs/javascript/
+essay_nav:
+  - title: 职场
+  - title: 生活
