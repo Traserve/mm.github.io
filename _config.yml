@@ -285,7 +285,8 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      // 作者侧边栏
+      author_profile: false
       # 显示阅读时间
       read_time: true
       comments: # true
@@ -301,3 +302,6 @@ defaults:
       math: true
       # 宽页面
       classes: wide
+      teaser: /assets/images/program.jpg
+      sidebar:
+        nav: "docs"
