@@ -282,7 +282,8 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: posts
+      # type: posts
+      type: docs
     values:
       layout: single
       // 作者侧边栏
@@ -304,4 +305,4 @@ defaults:
       classes: wide
       teaser: /assets/images/program.jpg
       sidebar:
-        nav: "docs"
+          nav: "docs"
