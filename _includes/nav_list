@@ -32,13 +32,13 @@
         </ul>
         {% endif %}
 
-        <!-- {% if nav.children.children != null %}
+        {% if nav.children.children != null %}
         <ul>
           {% for subchild in nav.children.children %}
             <li><a href="{{ subchild.url | relative_url }}"{% if subchild.url == page.url %} class="active"{% endif %}>{{ subchild.title }}</a></li>
           {% endfor %}
         </ul>
-        {% endif %} -->
+        {% endif %}
 
       </li>
     {% endfor %}
