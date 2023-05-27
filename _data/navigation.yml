@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "Recent"
+    url: ""
   - title: "Posts"
     url: /year-archive/
   - title: "Categories"
@@ -11,6 +13,6 @@ main:
   # - title: "Collections"
   #   url: /collection-archive/
   - title: "Quick-Start Guide"
-    url: /docs/quick-start-guide/
+    url: /splash-page/
   # - title: "External Link"
   #   url: https://google.com
