@@ -373,6 +373,7 @@ algorithm_nav:
     children:
 
 blog_nav:
+  - title: JVM
   - title: Java
   - title: Spring
   - title: Spring MVC
@@ -381,6 +382,23 @@ blog_nav:
   - title: Dubbo
   - title: MyBatis
   - title: MySQL
+    children:
+      - title: MySQL InnoDB 引擎
+        url: /blog/MySQL-InnoDB-引擎/
+      - title: MySQL 日志
+        url: /blog/MySQL-日志/
+      - title: MySQL 索引
+        url: /blog/MySQL-索引/
+      - title: MySQL 事务
+        url: /blog/MySQL-事务/
+      - title: MySQL 幻读
+        url: /blog/MySQL-幻读/
+      - title: MySQL SQL优化
+        url: /blog/MySQL-SQL优化/
+      - title: MySQL 分库分表
+        url: /blog/MySQL-分库分表/
+      - title: MySQL 集群
+        url: /blog/MySQL-集群/
   - title: Oracle
   - title: PostgreSQL
   - title: MongoDB
