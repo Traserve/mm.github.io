@@ -27,6 +27,7 @@
               <li><a href="{{ child.url | relative_url }}"{% if child.url == page.url %} class="active"{% endif %}>{{ child.title }}</a></li>
             {% else %}
               <li><span class="nav__sub-title">{{ child.title }}</span></li>
+            {% endif %}
           {% endfor %}
         </ul>
         {% endif %}
