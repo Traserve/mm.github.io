@@ -307,6 +307,7 @@ defaults:
   - scope:
       path: "_posts/algorithm"
     values:
+      author_profile: false
       sidebar:
         title: "算法"
         nav: "algorithm_nav"
@@ -314,6 +315,7 @@ defaults:
   - scope:
       path: "_posts/blog"
     values:
+      author_profile: false
       sidebar:
         title: "技术"
         nav: "blog_nav"
@@ -321,6 +323,7 @@ defaults:
   - scope:
       path: "_posts/essay"
     values:
+      author_profile: false
       sidebar:
         title: "随笔"
         nav: "essay_nav"

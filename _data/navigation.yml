@@ -41,19 +41,318 @@ algorithm_nav:
         url: /algorithm/0189.-轮转数组/
   - title: 链表
     children:
-      - title: 面试题-02.07.-链表相交
+      - title: 203. 移除链表元素
+        url: /algorithm/0203.-移除链表元素/
+      - title: 707. 设计链表
+        url: /algorithm/0707.-设计链表/
+      - title: 206. 反转链表
+        url: /algorithm/0206.-反转链表/
+      - title: 24. 两两交换链表中的节点
+        url: /algorithm/0024.-两两交换链表中的节点/
+      - title: 19. 删除链表的倒数第 N 个结点
+        url: /algorithm/0019.-删除链表的倒数第-N-个结点/
+      - title: 1721. 交换链表中的节点
+        url: /algorithm/1721.-交换链表中的节点/
+      - title: 面试题 02.07. 链表相交
         url: /algorithm/面试题-02.07.-链表相交/
+      - title: 142. 环形链表II
+        url: /algorithm/0142.-环形链表-II/
+      - title: 147. 对链表进行插入排序
+        url: /algorithm/0147.-对链表进行插入排序/
+      - title: 148. 排序链表
+        url: /algorithm/0148.-排序链表/
   - title: 哈希表
+    children:
+      - title: 242. 有效的字母异位词
+        url: /algorithm/242.-有效的字母异位词/
+      - title: 349. 两个数组的交集
+        url: /algorithm/349.-两个数组的交集/
+      - title: 202. 快乐数
+        url: /algorithm/202.-快乐数/
+      - title: 1. 两数之和
+        url: /algorithm/1.-两数之和/
+      - title: 454. 四数相加 II
+        url: /algorithm/454.-四数相加-II/
+      - title: 383. 赎金信
+        url: /algorithm/383.-赎金信/
+      - title: 15. 三数之和
+        url: /algorithm/15.-三数之和/
+      - title: 18. 四数之和
+        url: /algorithm/18.-四数之和/
+      - title: 895. 最大频率栈
+        url: /895.-最大频率栈/
   - title: 字符串
+    children:
+      - title: 344. 反转字符串
+        url: /algorithm/344.-反转字符串/
+      - title: 541. 反转字符串 II
+        url: /algorithm/541.-反转字符串-II/
+      - title: 剑指 Offer 05. 替换空格
+        url: /algorithm/剑指-Offer-05.-替换空格/
+      - title: 151. 翻转字符串里的单词
+        url: /algorithm/151.-翻转字符串里的单词/
+      - title: 剑指 Offer 58 - II. 左旋转字符串
+        url: /algorithm/剑指-Offer-58---II.-左旋转字符串/
+      - title: 28. 实现 strStr()
+        url: /algorithm/28.-实现-strStr()/
+      - title: 459. 重复的子字符串
+        url: /algorithm/459.-重复的子字符串/
   - title: 双指针
+    children:
+      - title: 27. 移除元素
+        url: /algorithm/27.-移除元素/
+      - title: 344. 反转字符串
+        url: /algorithm/344.-反转字符串/
+      - title: 541. 反转字符串 II
+        url: /algorithm/541.-反转字符串-II/
+      - title: 剑指 Offer 05. 替换空格
+        url: /algorithm/剑指-Offer-05.-替换空格/
+      - title: 206. 反转链表
+        url: /algorithm/206.-反转链表/
+      - title: 19. 删除链表的倒数第N个节点
+        url: /algorithm/19.-删除链表的倒数第N个节点/
+      - title: 1721. 交换链表中的节点
+        url: /algorithm/1721.-交换链表中的节点/
+      - title: 3. 无重复字符的最长子串
+        url: /algorithm/3.-无重复字符的最长子串/
+      - title: 面试题 02.07. 链表相交
+        url: /algorithm/面试题-02.07.-链表相交/
+      - title: 142. 环形链表II
+        url: /algorithm/142.-环形链表II/
+      - title: 15. 三数之和
+        url: /algorithm/15.-三数之和/
+      - title: 18. 四数之和
+        url: /algorithm/18.-四数之和/
   - title: 队列和栈
+    children:
+      - title: 232. 用栈实现队列
+        url: /algorithm/232.-用栈实现队列/
+      - title: 225. 用队列实现栈
+        url: /algorithm/225.-用队列实现栈/
+      - title: 20. 有效的括号
+        url: /algorithm/20.-有效的括号/
+      - title: 1047. 删除字符串中的所有相邻重复项
+        url: /algorithm/1047.-删除字符串中的所有相邻重复项/
+      - title: 150. 逆波兰表达式求值
+        url: /algorithm/150.-逆波兰表达式求值/
+      - title: 239. 滑动窗口最大值
+        url: /algorithm/239.-滑动窗口最大值/
+      - title: 347. 前 K 个高频元素
+        url: /algorithm/347.-前-K-个高频元素/
   - title: 二叉树
+    children:
+      - title: 144. 二叉树的前序遍历
+        url: /algorithm/144.-二叉树的前序遍历/
+      - title: 145. 二叉树的后序遍历
+        url: /algorithm/145.-二叉树的后序遍历/
+      - title: 94. 二叉树的中序遍历
+        url: /algorithm/94.-二叉树的中序遍历/
+      - title: 102. 二叉树的层序遍历
+        url: /algorithm/102.-二叉树的层序遍历/
+      - title: 107. 二叉树的层序遍历 II
+        url: /algorithm/107.-二叉树的层序遍历-II/
+      - title: 199. 二叉树的右视图
+        url: /algorithm/199.-二叉树的右视图/
+      - title: 637. 二叉树的层平均值
+        url: /algorithm/637.-二叉树的层平均值/
+      - title: 429. N 叉树的层序遍历
+        url: /algorithm/429.-N-叉树的层序遍历/
+      - title: 515. 在每个树行中找最大值
+        url: /algorithm/515.-在每个树行中找最大值/
+      - title: 116. 填充每个节点的下一个右侧节点指针
+        url: /algorithm/116.-填充每个节点的下一个右侧节点指针/
+      - title: 117. 填充每个节点的下一个右侧节点指针 II
+        url: /algorithm/117.-填充每个节点的下一个右侧节点指针-II/
+      - title: 226. 翻转二叉树
+        url: /algorithm/226.-翻转二叉树/
+      - title: 101. 对称二叉树
+        url: /algorithm/101.-对称二叉树/
+      - title: 111. 二叉树的最小深度
+        url: /algorithm/111.-二叉树的最小深度/
+      - title: 222. 完全二叉树的节点个数
+        url: /algorithm/222.-完全二叉树的节点个数/
+      - title: 110. 平衡二叉树
+        url: /algorithm/110.-平衡二叉树/
+      - title: 257. 二叉树的所有路径
+        url: /algorithm/257.-二叉树的所有路径/
+      - title: 404. 左叶子之和
+        url: /algorithm/404.-左叶子之和/
+      - title: 513. 找树左下角的值
+        url: /algorithm/513.-找树左下角的值/
+      - title: 112. 路径总和
+        url: /algorithm/112.-路径总和/
+      - title: 113. 路径总和 II
+        url: /algorithm/113.-路径总和-II/
+      - title: 106. 从中序与后序遍历序列构造二叉树
+        url: /algorithm/106.-从中序与后序遍历序列构造二叉树/
+      - title: 105. 从前序与中序遍历序列构造二叉树
+        url: /algorithm/105.-从前序与中序遍历序列构造二叉树/
+      - title: 654. 最大二叉树
+        url: /algorithm/654.-最大二叉树/
+      - title: 617. 合并二叉树
+        url: /algorithm/617.-合并二叉树/
+      - title: 700. 二叉搜索树中的搜索
+        url: /algorithm/700.-二叉搜索树中的搜索/
+      - title: 98. 验证二叉搜索树
+        url: /algorithm/98.-验证二叉搜索树/
+      - title: 530. 二叉搜索树的最小绝对差
+        url: /algorithm/530.-二叉搜索树的最小绝对差/
+      - title: 501. 二叉搜索树中的众数
+        url: /algorithm/501.-二叉搜索树中的众数/
+      - title: 236. 二叉树的最近公共祖先
+        url: /algorithm/236.-二叉树的最近公共祖先/
+      - title: 235. 二叉搜索树的最近公共祖先
+        url: /algorithm/235.-二叉搜索树的最近公共祖先/
+      - title: 337. 打家劫舍 III
+        url: /algorithm/337.-打家劫舍-III/
+      - title: 701. 二叉搜索树中的插入操作
+        url: /algorithm/701.-二叉搜索树中的插入操作/
+      - title: 450. 删除二叉搜索树中的节点
+        url: /algorithm/450.-删除二叉搜索树中的节点/
+      - title: 669. 修剪二叉搜索树
+        url: /algorithm/669.-修剪二叉搜索树/
+      - title: 108. 将有序数组转换为二叉搜索树
+        url: /algorithm/108.-将有序数组转换为二叉搜索树/
+      - title: 538. 把二叉搜索树转换为累加树
+        url: /algorithm/538.-把二叉搜索树转换为累加树/
   - title: 回溯
+    children:
+      - title: 77. 组合
+        url: /algorithm/77.-组合/
+      - title: 216. 组合总和 III
+        url: /algorithm/216.-组合总和-III/
+      - title: 17. 电话号码的字母组合
+        url: /algorithm/17.-电话号码的字母组合/
+      - title: 39. 组合总和
+        url: /algorithm/39.-组合总和/
+      - title: 40. 组合总和 II
+        url: /algorithm/40.-组合总和-II/
+      - title: 131. 分割回文串
+        url: /algorithm/131.-分割回文串/
+      - title: 93. 复原 IP 地址
+        url: /algorithm/93.-复原-IP-地址/
+      - title: 78. 子集
+        url: /algorithm/78.-子集/
+      - title: 90. 子集 II
+        url: /algorithm/90.-子集-II/
+      - title: 491. 递增子序列
+        url: /algorithm/491.-递增子序列/
+      - title: 46. 全排列
+        url: /algorithm/46.-全排列/
+      - title: 47. 全排列 II
+        url: /algorithm/47.-全排列-II/
+      - title: 332. 重新安排行程
+        url: /algorithm/332.-重新安排行程/
+      - title: 51. N 皇后
+        url: /algorithm/51.-N-皇后/
+      - title: 37. 解数独
+        url: /algorithm/37.-解数独/
   - title: 贪心
+    children:
+      - title: 455. 分发饼干
+        url: /algorithm/455.-分发饼干/
+      - title: 376. 摆动序列
+        url: /algorithm/376.-摆动序列/
+      - title: 53. 最大子数组和
+        url: /algorithm/53.-最大子数组和/
+      - title: 122. 买卖股票的最佳时机 II
+        url: /algorithm/122.-买卖股票的最佳时机-II/
+      - title: 45. 跳跃游戏 II
+        url: /algorithm/45.-跳跃游戏-II/
   - title: 动态规划
+    children:
+      - title: 509. 斐波那契数
+        url: /algorithm/509.-斐波那契数/
+      - title: 70. 爬楼梯
+        url: /algorithm/70.-爬楼梯/
+      - title: 746. 使用最小花费爬楼梯
+        url: /algorithm/746.-使用最小花费爬楼梯/
+      - title: 62. 不同路径
+        url: /algorithm/62.-不同路径/
+      - title: 63. 不同路径 II
+        url: /algorithm/63.-不同路径-II/
+      - title: 343. 整数拆分
+        url: /algorithm/343.-整数拆分/
+      - title: 96. 不同的二叉搜索树
+        url: /algorithm/96.-不同的二叉搜索树/
+      - title: 416. 分割等和子集
+        url: /algorithm/416.-分割等和子集/
+      - title: 1049. 最后一块石头的重量 II
+        url: /algorithm/1049.-最后一块石头的重量-II/
+      - title: 494. 目标和
+        url: /algorithm/494.-目标和/
+      - title: 474. 一和零
+        url: /algorithm/474.-一和零/
+      - title: 518. 零钱兑换 II
+        url: /algorithm/518.-零钱兑换-II/
+      - title: 377. 组合总和 Ⅳ
+        url: /algorithm/377.-组合总和-Ⅳ/
+      - title: 70. 爬楼梯
+        url: /algorithm/70.-爬楼梯/
+      - title: 322. 零钱兑换
+        url: /algorithm/322.-零钱兑换/
+      - title: 279. 完全平方数
+        url: /algorithm/279.-完全平方数/
+      - title: 139. 单词拆分
+        url: /algorithm/139.-单词拆分/
+      - title: 198. 打家劫舍
+        url: /algorithm/198.-打家劫舍/
+      - title: 213. 打家劫舍 II
+        url: /algorithm/213.-打家劫舍-II/
+      - title: 337. 打家劫舍 III
+        url: /algorithm/337.-打家劫舍-III/
+      - title: 121. 买卖股票的最佳时机
+        url: /algorithm/121.-买卖股票的最佳时机/
+      - title: 122. 买卖股票的最佳时机 II
+        url: /algorithm/122.-买卖股票的最佳时机-II/
+      - title: 123. 买卖股票的最佳时机 III
+        url: /algorithm/123.-买卖股票的最佳时机-III/
+      - title: 188. 买卖股票的最佳时机 IV
+        url: /algorithm/188.-买卖股票的最佳时机-IV/
+      - title: 309. 最佳买卖股票时机含冷冻期
+        url: /algorithm/309.-最佳买卖股票时机含冷冻期/
+      - title: 714. 买卖股票的最佳时机含手续费
+        url: /algorithm/714.-买卖股票的最佳时机含手续费/
+      - title: 674. 最长连续递增序列
+        url: /algorithm/674.-最长连续递增序列/
+      - title: 300. 最长递增子序列
+        url: /algorithm/300.-最长递增子序列/
+      - title: 718. 最长重复子数组
+        url: /algorithm/718.-最长重复子数组/
+      - title: 1143. 最长公共子序列
+        url: /algorithm/1143.-最长公共子序列/
+      - title: 1035. 不相交的线
+        url: /algorithm/1035.-不相交的线/
+      - title: 53. 最大子数组和
+        url: /algorithm/53.-最大子数组和/
+      - title: 392. 判断子序列
+        url: /algorithm/392.-判断子序列/
+      - title: 115. 不同的子序列
+        url: /algorithm/115.-不同的子序列/
+      - title: 583. 两个字符串的删除操作
+        url: /algorithm/583.-两个字符串的删除操作/
+      - title: 72. 编辑距离
+        url: /algorithm/72.-编辑距离/
+      - title: 5. 最长回文子串
+        url: /algorithm/5.-最长回文子串/
+      - title: 647. 回文子串
+        url: /algorithm/647.-回文子串/
+      - title: 132. 分割回文串 II
+        url: /algorithm/132.-分割回文串-II/
   - title: 单调栈
+    children:
   - title: DFS
+    children:
+      - title: 200. 岛屿数量
+        url: /algorithm/200.-岛屿数量/
+      - title: 463. 岛屿的周长
+        url: /algorithm/463.-岛屿的周长/
+      - title: 695. 岛屿的最大面积
+        url: /algorithm/695.-岛屿的最大面积/
+      - title: 827. 最大人工岛
+        url: /algorithm/827.-最大人工岛/
   - title: 并查集
+    children:
 
 blog_nav:
   - title: Java
