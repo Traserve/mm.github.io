@@ -3,11 +3,11 @@ main:
   # - title: "Menu"
   #   url: ""
   - title: "算法"
-    url: /categories/algorithm/
+    url: /categories/algorithm/#algorithm
   - title: "技术博客"
-    url: /categories/blog/
+    url: /categories/blog/#blog
   - title: "随笔"
-    url: /categories/essay/
+    url: /categories/essay/#essay
   - title: "归档"
     url: /tags/
   # - title: "Pages"
