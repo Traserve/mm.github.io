@@ -28,14 +28,15 @@
             {% else %}
               <li><span class="nav__sub-title">{{ child.title }}</span></li>
             {% endif %}
-          {% endfor %}
-        </ul>
-        {% endif %}
 
-        {% if nav.children.children != null %}
-        <ul>
-          {% for subchild in nav.children.children %}
-            <li><a href="{{ subchild.url | relative_url }}"{% if subchild.url == page.url %} class="active"{% endif %}>{{ subchild.title }}</a></li>
+            <!-- 三级菜单 -->
+            {% if nav.children.children != null %}
+              <ul>
+                {% for subchild in nav.children.children %}
+                  <li><a href="{{ subchild.url | relative_url }}"{% if subchild.url == page.url %} class="active"{% endif %}>{{ subchild.title }}</a></li>
+                {% endfor %}
+              </ul>
+              {% endif %}
           {% endfor %}
         </ul>
         {% endif %}
