@@ -282,9 +282,8 @@ compress_html:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "_posts/algorithm"
       type: posts
-      # type: docs
     values:
       layout: single
       # 作者侧边栏
@@ -306,4 +305,5 @@ defaults:
       classes: wide
       teaser: /assets/images/program.jpg
       sidebar:
-          nav: "docs"
+        title: "导航"
+        nav: "algorithm_nav"
