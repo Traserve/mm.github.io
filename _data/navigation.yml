@@ -22,25 +22,27 @@ docs:
     children:
       - title: 排序
       - title: 数组
-        - title: 704. 二分查找
-          url: /algorithm/0704.-二分查找/
-        - title: 27. 移除元素
-          url: /algorithm/0027.-移除元素/
-        - title: 26. 删除有序数组中的重复项
-          url: /algorithm/0026.-删除有序数组中的重复项/
-        - title: 80. 删除有序数组中的重复项-II
-          url: /algorithm/0080.-删除有序数组中的重复项-II/
-        - title: 977. 有序数组的平方
-          url: /algorithm/0977.-有序数组的平方/
-        - title: 209. 长度最小的子数组
-          url: /algorithm/0209.-长度最小的子数组/
-        - title: 59. 螺旋矩阵II
-          url: /algorithm/0059.-螺旋矩阵II/
-        - title: 189. 轮转数组
-          url: /algorithm/0189.-轮转数组/
+        children:
+          - title: 704. 二分查找
+            url: /algorithm/0704.-二分查找/
+          - title: 27. 移除元素
+            url: /algorithm/0027.-移除元素/
+          - title: 26. 删除有序数组中的重复项
+            url: /algorithm/0026.-删除有序数组中的重复项/
+          - title: 80. 删除有序数组中的重复项-II
+            url: /algorithm/0080.-删除有序数组中的重复项-II/
+          - title: 977. 有序数组的平方
+            url: /algorithm/0977.-有序数组的平方/
+          - title: 209. 长度最小的子数组
+            url: /algorithm/0209.-长度最小的子数组/
+          - title: 59. 螺旋矩阵II
+            url: /algorithm/0059.-螺旋矩阵II/
+          - title: 189. 轮转数组
+            url: /algorithm/0189.-轮转数组/
       - title: 链表
-        - title: 面试题-02.07.-链表相交
-          url: /algorithm/面试题-02.07.-链表相交/
+        children:
+          - title: 面试题-02.07.-链表相交
+            url: /algorithm/面试题-02.07.-链表相交/
       - title: 哈希表
       - title: 字符串
       - title: 双指针
