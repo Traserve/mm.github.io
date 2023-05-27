@@ -297,3 +297,5 @@ defaults:
       # 显示toc
       toc: true
       toc_sticky: true
+      # 数学公式
+      math: true
