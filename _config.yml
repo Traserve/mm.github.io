@@ -299,3 +299,5 @@ defaults:
       toc_sticky: true
       # 数学公式
       math: true
+      # 宽页面
+      classes: wide
