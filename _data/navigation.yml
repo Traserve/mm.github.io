@@ -20,6 +20,8 @@ main:
   #   url: https://google.com
 
 algorithm_nav:
+  - title: 总结
+    url: /algorithm/算法思路/
   - title: 排序
     children:
       - title: 147. 对链表进行插入排序
