@@ -286,6 +286,7 @@ defaults:
     values:
       layout: single
       permalink: /:categories/:title/
+      slug: " "
       # 作者侧边栏
       author_profile: false
       # 显示阅读时间
