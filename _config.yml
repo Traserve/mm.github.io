@@ -291,7 +291,8 @@ defaults:
       # 显示阅读时间
       read_time: true
       comments: # true
-      share: true
+      # 分享
+      share: false
       related: true
       # 显示提交日期
       show_date: true

@@ -21,7 +21,9 @@ main:
 
 algorithm_nav:
   - title: 总结
-    url: /algorithm/算法思路/
+    children:
+      - title: 算法思路
+        url: /algorithm/0000.-算法思路/
   - title: 排序
     children:
       - title: 147. 对链表进行插入排序
@@ -71,6 +73,8 @@ algorithm_nav:
         url: /algorithm/0147.-对链表进行插入排序/
       - title: 148. 排序链表
         url: /algorithm/0148.-排序链表/
+      - title: 笔试题 1. 链表重排
+        url: /algorithm/笔试题-1.-链表重排/
 
   - title: 哈希表
     children:
