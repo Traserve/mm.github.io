@@ -1,6 +1,6 @@
 ---
 # name: spring-ioc
-title: Spring IOC 容器源码分析
+title: Spring IOC 源码解析
 categories: 
    - Blog
    - Spring

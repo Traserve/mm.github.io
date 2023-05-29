@@ -20,6 +20,6 @@ tags:
 - 当要销毁 Bean 的时候，如果 Bean 实现了 `DisposableBean` 接口，执行 `destroy()` 方法。
 - 当要销毁 Bean 的时候，如果 Bean 在配置文件中的定义包含 destroy-method 属性，执行指定的方法。
 
-![](assets/20230529_111116_spring-bean-lifestyle1.jpg)
+![](https://raw.githubusercontent.com/Traserve/traserve.github.io/master/_posts/blog/Spring/assets/20230529_111116_spring-bean-lifestyle1.jpg)
 
-![](assets/20230529_111116_spring-bean-lifestyle2.jpg)
+![](https://raw.githubusercontent.com/Traserve/traserve.github.io/master/_posts/blog/Spring/assets/20230529_111116_spring-bean-lifestyle2.jpg)

@@ -387,10 +387,10 @@ blog_nav:
         url: /blog/spring/Spring-启动流程
       - title: Spring Bean 生命周期
         url: /blog/spring/Spring-Bean-生命周期
-      - title: Spring IOC 容器源码分析
-        url: /blog/spring/Spring-IOC-容器源码分析
+      - title: Spring IOC 源码解析
+        url: /blog/spring/Spring-IOC-源码解析
       - title: Spring AOP 使用介绍
-        url: /blog/spring/Spring-AOP-使用介绍
+        url: /blog/spring/Spring-AOP-使用
       - title: Spring AOP 源码解析
         url: /blog/spring/Spring-AOP-源码解析
   - title: Spring MVC
