@@ -12,15 +12,15 @@ SpringMVC 其实就是对 Servlet 的封装，屏蔽掉 Servlet 很多的细节�
 
 **Servlet：**
 
-<img src="https://raw.githubusercontent.com/Traserve/traserve.github.io/master/_posts/blog/Spring%20MVC/images/image-20230529223441215.png" alt="image-20230529223441215" style="zoom:80%;" />
+<img src="https://raw.githubusercontent.com/Traserve/traserve.github.io/master/_posts/blog/Spring%20MVC/images/image-20230529223441215.png" alt="image-20230529223441215" style="zoom:80%;" />{: .align-center}
 
 **SpringMVC:**
 
-<img src="https://raw.githubusercontent.com/Traserve/traserve.github.io/master/_posts/blog/Spring%20MVC/images/image-20230529223509045.png" alt="image-20230529223509045" style="zoom:80%;" />
+<img src="https://raw.githubusercontent.com/Traserve/traserve.github.io/master/_posts/blog/Spring%20MVC/images/image-20230529223509045.png" alt="image-20230529223509045" style="zoom:80%;" />{: .align-center}
 
 ## SpringMVC 请求处理的流程
 
-![img](https://raw.githubusercontent.com/Traserve/traserve.github.io/master/_posts/blog/Spring%20MVC/images/springmvc-process1.jpg)
+![img](https://raw.githubusercontent.com/Traserve/traserve.github.io/master/_posts/blog/Spring%20MVC/images/springmvc-process1.jpg){: .align-center}
 
 1. 用户发送请求至**前端控制器** DispatcherServlet。
 
@@ -43,7 +43,7 @@ SpringMVC 其实就是对 Servlet 的封装，屏蔽掉 Servlet 很多的细节�
 
 11. DispatcherServlet 响应用户。
 
-![img](https://raw.githubusercontent.com/Traserve/traserve.github.io/master/_posts/blog/Spring%20MVC/images/springmvc-process2.png)
+![img](https://raw.githubusercontent.com/Traserve/traserve.github.io/master/_posts/blog/Spring%20MVC/images/springmvc-process2.png){: .align-center}
 
 > 参考：
 >
