@@ -285,7 +285,7 @@ defaults:
       type: posts
     values:
       layout: single
-      permalink: /:categories/:title/
+      permalink: /:categories/:name/
       # 作者侧边栏
       author_profile: false
       # 显示阅读时间
