@@ -397,15 +397,15 @@ blog_nav:
   - title: Spring MVC
     children:
       - title: Spring MVC 流程
-        url: /blog/spring/Spring-MVC-流程
+        url: /blog/springmvc/Spring-MVC-流程
       - title: Spring MVC 之 DispatchServlet
-        url: /blog/spring/Spring MVC-之-DispatchServlet
+        url: /blog/springmvc/Spring MVC-之-DispatchServlet
       - title: Spring MVC 之 HandlerMapping
-        url: /blog/spring/Spring MVC-之-HandlerMapping
+        url: /blog/springmvc/Spring MVC-之-HandlerMapping
       - title: Spring MVC 之 HandlerAdapter
-        url: /blog/spring/Spring MVC-之-HandlerAdapter
+        url: /blog/springmvc/Spring MVC-之-HandlerAdapter
       - title: Spring MVC 之 ViewResolver
-        url: /blog/spring/Spring MVC-之-ViewResolver
+        url: /blog/springmvc/Spring MVC-之-ViewResolver
     
   - title: Spring Boot
   - title: Spring Cloud
