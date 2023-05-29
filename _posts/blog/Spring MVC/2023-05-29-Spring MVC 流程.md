@@ -1,40 +1,26 @@
 ---
 title: Spring MVC 流程
 categories:
-
 - Blog
 - Spring MVC
   tags:
 - Spring
 - Spring MVC
 ---
-> 好文推荐：
->
-> https://mp.weixin.qq.com/s/0tWgaYxavixiDCppvOfd-w
->
-> https://mp.weixin.qq.com/s/BO_CPQ0x-kBMIYBOviG3Xg
->
-> https://www.jianshu.com/p/f04816ee2495
->
-> https://www.jianshu.com/p/23ad68d8b421
->
-> https://blog.csdn.net/xxb249/article/details/120731022
->
-> https://blog.csdn.net/xxb249/article/details/122224795
 
 SpringMVC 其实就是对 Servlet 的封装，屏蔽掉 Servlet 很多的细节。比如写 Servlet 的时候，要获取参数需要不断的 getParameter，在SpringMVC 方法定义对应的 JavaBean，只要属性名与参数名一致，SpringMVC 就可以帮我们实现「将参数封装到 JavaBean」上了。又比如，以前使用 Servlet「上传文件」，需要处理各种细节，写一大堆处理的逻辑（还得导入对应的jar）。在 SpringMVC 的方法上定义出 MultipartFile 接口，又可以屏蔽掉上传文件的细节了。
 
 **Servlet：**
 
-<img src="images/image-20230529223441215.png" alt="image-20230529223441215" style="zoom:80%;" />
+<img src="https://raw.githubusercontent.com/Traserve/traserve.github.io/master/_posts/blog/Spring%20MVC/images/image-20230529223441215.png" alt="image-20230529223441215" style="zoom:80%;" />
 
 **SpringMVC:**
 
-<img src="images/image-20230529223509045.png" alt="image-20230529223509045" style="zoom:80%;" />
+<img src="https://raw.githubusercontent.com/Traserve/traserve.github.io/master/_posts/blog/Spring%20MVC/images/image-20230529223509045.png" alt="image-20230529223509045" style="zoom:80%;" />
 
 ## SpringMVC 请求处理的流程
 
-![img](images/springmvc-process1.jpg)
+![img](https://raw.githubusercontent.com/Traserve/traserve.github.io/master/_posts/blog/Spring%20MVC/images/springmvc-process1.jpg)
 
 1. 用户发送请求至**前端控制器** DispatcherServlet。
 
@@ -57,4 +43,18 @@ SpringMVC 其实就是对 Servlet 的封装，屏蔽掉 Servlet 很多的细节�
 
 11. DispatcherServlet 响应用户。
 
-![img](images/springmvc-process2.png)
+![img](https://raw.githubusercontent.com/Traserve/traserve.github.io/master/_posts/blog/Spring%20MVC/images/springmvc-process2.png)
+
+> 参考：
+>
+> [SpringMVC入门就这么简单](https://mp.weixin.qq.com/s/0tWgaYxavixiDCppvOfd-w)
+>
+> [三歪肝出了期待已久的SpringMVC](https://mp.weixin.qq.com/s/BO_CPQ0x-kBMIYBOviG3Xg)
+>
+> [SpringMVC工作原理之适配器[HandlerAdapter]](https://www.jianshu.com/p/f04816ee2495)
+>
+> [SpringMVC工作原理之适配器[HandlerAdapter]](https://www.jianshu.com/p/23ad68d8b421)
+>
+> [SpringMvc学习日记-DispatchServlet初始化流程](https://blog.csdn.net/xxb249/article/details/120731022)
+>
+> [SpringMvc源码分析-DispatchServlet处理流程](https://blog.csdn.net/xxb249/article/details/122224795)

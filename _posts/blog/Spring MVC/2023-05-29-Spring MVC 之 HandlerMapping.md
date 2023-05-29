@@ -1,7 +1,6 @@
 ---
 title: Spring MVC 流程
 categories:
-
 - Blog
 - Spring MVC
   tags:

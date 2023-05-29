@@ -1,7 +1,6 @@
 ---
 title: Spring MVC 流程
 categories:
-
 - Blog
 - Spring MVC
   tags:
@@ -13,13 +12,13 @@ categories:
 
 首先我们看看 DispatcherServlet 的类结构，可以清楚地发现实际 DispatcherServlet 就是 Servlet 接口的一个子类。
 
-![](images/DispatcherServlet.png)
+![](https://raw.githubusercontent.com/Traserve/traserve.github.io/master/_posts/blog/Spring%20MVC/images/DispatcherServlet.png)
 
 #### DispatchServlet 初始化
 
 既然最顶层是 Servlet，那么初始化入口肯定是`Servlet#init(ServletConfig)`方法，沿着这个思路去看源码，可以得大体框架图：
 
-<img src="images/SpringMVC-DispatchServlet-Init.drawio.png" alt="image-20230529215830090" style="zoom:80%;" />
+<img src="https://raw.githubusercontent.com/Traserve/traserve.github.io/master/_posts/blog/Spring%20MVC/images/SpringMVC-DispatchServlet-Init.drawio.png" alt="image-20230529215830090" style="zoom:80%;" />
 
 ##### HttpServletBean#init 
 
@@ -343,8 +342,4 @@ OK，整体的流程我们是已经看完了。
 
 流程图如下：
 
-![图片](images/DispatcherServlet-process.jpeg)
-
-## HandlerMapping 源码分析
-
-## HandlerAdapter 源码分析
+![图片](https://raw.githubusercontent.com/Traserve/traserve.github.io/master/_posts/blog/Spring%20MVC/images/DispatcherServlet-process.png)
