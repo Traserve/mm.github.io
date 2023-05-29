@@ -1,11 +1,11 @@
 ---
 title: Spring MVC 流程
 categories:
-- Blog
-- SpringMVC
-  tags:
-- Spring
-- SpringMVC
+  - Blog
+  - SpringMVC
+tags:
+  - Spring
+  - SpringMVC
 ---
 
 ## DispatchServlet 源码分析
