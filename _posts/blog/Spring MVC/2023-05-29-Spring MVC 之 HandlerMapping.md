@@ -2,10 +2,10 @@
 title: Spring MVC 流程
 categories:
 - Blog
-- Spring MVC
+- SpringMVC
   tags:
 - Spring
-- Spring MVC
+- SpringMVC
 ---
 
 ## HandlerMapping 源码分析

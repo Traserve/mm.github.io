@@ -2,10 +2,10 @@
 title: Spring MVC 流程
 categories:
 - Blog
-- Spring MVC
+- SpringMVC
   tags:
 - Spring
-- Spring MVC
+- SpringMVC
 ---
 
 SpringMVC 其实就是对 Servlet 的封装，屏蔽掉 Servlet 很多的细节。比如写 Servlet 的时候，要获取参数需要不断的 getParameter，在SpringMVC 方法定义对应的 JavaBean，只要属性名与参数名一致，SpringMVC 就可以帮我们实现「将参数封装到 JavaBean」上了。又比如，以前使用 Servlet「上传文件」，需要处理各种细节，写一大堆处理的逻辑（还得导入对应的jar）。在 SpringMVC 的方法上定义出 MultipartFile 接口，又可以屏蔽掉上传文件的细节了。
