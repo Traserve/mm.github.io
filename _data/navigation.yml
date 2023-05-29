@@ -24,6 +24,21 @@ algorithm_nav:
     children:
       - title: 算法思路
         url: /algorithm/0000.-算法思路/
+  - title: 数学
+    children:
+      - title: 10进制转36进制
+        url: /algorithm/10进制转36进制/
+      - title: 16进制转10进制
+        url: /algorithm/整数与IP地址间的转换/
+      - title: 分解质因数
+        url: /algorithm/分解质因数/
+      - title: 一千万以内共有多少质数
+        url: /algorithm/一千万以内共有多少质数/
+      - title: 牛顿迭代算法
+        url: /algorithm/牛顿迭代算法/
+      - title: 莫比乌斯环
+        url: /algorithm/莫比乌斯环/
+  
   - title: 排序
     children:
       - title: 147. 对链表进行插入排序
