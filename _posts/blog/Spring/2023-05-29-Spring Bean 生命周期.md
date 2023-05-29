@@ -1,6 +1,5 @@
 ---
 title: Spring Bean 生命周期
-date: 2023-05-29 10:48:31
 categories: 
    - Blog
    - Spring

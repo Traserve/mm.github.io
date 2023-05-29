@@ -1,7 +1,6 @@
 ---
 # name: spring-ioc
 title: Spring IOC 容器源码分析
-date: 2023-05-29 10:16:18
 categories: 
    - Blog
    - Spring

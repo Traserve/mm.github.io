@@ -1,7 +1,6 @@
 ---
 # name: spring-aop-source
 title: Spring AOP 源码解析
-date: 2023-05-29 10:48:31
 categories: 
    - Blog
    - Spring

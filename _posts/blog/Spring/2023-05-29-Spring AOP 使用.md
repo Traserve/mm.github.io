@@ -1,7 +1,6 @@
 ---
 # name: spring-aop-intro
 title: Spring AOP 使用
-date: 2023-05-29 10:50:30
 categories: 
    - Blog
    - Spring
