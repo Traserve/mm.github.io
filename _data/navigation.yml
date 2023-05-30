@@ -30,10 +30,12 @@ algorithm_nav:
         url: /algorithm/10进制转36进制/
       - title: 16进制转10进制
         url: /algorithm/整数与IP地址间的转换/
-      - title: 分解质因数
-        url: /algorithm/分解质因数/
+      - title: 质因数分解
+        url: /algorithm/质因数分解/
       - title: 一千万以内共有多少质数
         url: /algorithm/一千万以内共有多少质数/
+      - title: 求一亿以内的回文质数
+        url: /algorithm/求一亿以内的回文质数/
       - title: 牛顿迭代算法
         url: /algorithm/牛顿迭代算法/
       - title: 莫比乌斯环
