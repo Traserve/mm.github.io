@@ -29,6 +29,8 @@ algorithm_nav:
       - title: 10进制转36进制
         url: /algorithm/10进制转36进制/
       - title: 16进制转10进制
+        url: /algorithm/16进制转10进制/
+      - title: 整数与IP地址间的转换
         url: /algorithm/整数与IP地址间的转换/
       - title: 质因数分解
         url: /algorithm/质因数分解/
