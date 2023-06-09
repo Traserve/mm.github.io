@@ -385,6 +385,15 @@ algorithm_nav:
 
   - title: 单调栈
     children:
+      - title: 739. 每日温度
+        url: /algorithm/0739.-每日温度/
+      - title: 84. 柱状图中最大的矩形
+        url: /algorithm/0084.-柱状图中最大的矩形/
+      - title: 85. 最大矩形
+        url: /algorithm/0085.-最大矩形/
+      - title: 42. 接雨水
+        url: /algorithm/0042.-接雨水/
+    
   - title: DFS
     children:
       - title: 200. 岛屿数量
