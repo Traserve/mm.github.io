@@ -42,6 +42,8 @@ algorithm_nav:
         url: /algorithm/牛顿迭代算法/
       - title: 莫比乌斯环
         url: /algorithm/莫比乌斯环/
+      - title: 蓄水池采样
+        url: /algorithm/蓄水池采样/
   
   - title: 排序
     children:
@@ -161,6 +163,8 @@ algorithm_nav:
         url: /algorithm/0015.-三数之和/
       - title: 18. 四数之和
         url: /algorithm/0018.-四数之和/
+      - title: 11. 盛最多水的容器
+        url: /algorithm/0011.-盛最多水的容器/
 
   - title: 队列和栈
     children:
