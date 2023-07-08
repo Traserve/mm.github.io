@@ -163,6 +163,8 @@ algorithm_nav:
         url: /algorithm/面试题-02.07.-链表相交/
       - title: 142. 环形链表II
         url: /algorithm/0142.-环形链表II/
+      - title: 143. 重排链表
+        url: /algorithm/0143.-重排链表/
       - title: 15. 三数之和
         url: /algorithm/0015.-三数之和/
       - title: 18. 四数之和
