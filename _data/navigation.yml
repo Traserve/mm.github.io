@@ -136,8 +136,8 @@ algorithm_nav:
         url: /algorithm/0151.-翻转字符串里的单词/
       - title: 剑指 Offer 58 - II. 左旋转字符串
         url: /algorithm/剑指-Offer-58---II.-左旋转字符串/
-      - title: 28. 实现 strStr()
-        url: /algorithm/0028.-实现-strStr()/
+      - title: 28. 找出字符串中第一个匹配项的下标
+        url: /algorithm/0028.-找出字符串中第一个匹配项的下标/
       - title: 459. 重复的子字符串
         url: /algorithm/0459.-重复的子字符串/
 
