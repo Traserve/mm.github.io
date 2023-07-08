@@ -26,6 +26,12 @@ algorithm_nav:
         url: /algorithm/0000.-算法思路/
   - title: 数学
     children:
+      - title: 7. 整数反转
+        url: /algorithm/0007.-整数反转/
+      - title: 8. 字符串转换整数 (atoi)
+        url: /algorithm/0008.-字符串转换整数-(atoi)/
+      - title: 9. 回文数
+        url: /algorithm/0009.-回文数/
       - title: 10进制转36进制
         url: /algorithm/10进制转36进制/
       - title: 16进制转10进制
@@ -38,6 +44,10 @@ algorithm_nav:
         url: /algorithm/一千万以内共有多少质数/
       - title: 求一亿以内的回文质数
         url: /algorithm/求一亿以内的回文质数/
+      - title: LCP 33. 蓄水
+        url: /algorithm/LCP-33.-蓄水/
+      - title: 365. 水壶问题
+        url: /algorithm/0365.-水壶问题/
       - title: 牛顿迭代算法
         url: /algorithm/牛顿迭代算法/
       - title: 莫比乌斯环
