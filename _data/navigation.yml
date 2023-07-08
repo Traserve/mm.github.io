@@ -90,12 +90,16 @@ algorithm_nav:
         url: /algorithm/面试题-02.07.-链表相交/
       - title: 142. 环形链表II
         url: /algorithm/0142.-环形链表-II/
+      - title: 61. 旋转链表
+        url: /algorithm/0061.-旋转链表/
+      - title: 86. 分隔链表
+        url: /algorithm/0086.-分隔链表/
       - title: 147. 对链表进行插入排序
         url: /algorithm/0147.-对链表进行插入排序/
       - title: 148. 排序链表
         url: /algorithm/0148.-排序链表/
       - title: 143. 重排链表
-        url: /algorithm/0143. 重排链表/
+        url: /algorithm/0143.-重排链表/
       - title: 笔试题 2. 链表重排 2
         url: /algorithm/笔试题-2.-链表重排2/
 
@@ -259,6 +263,8 @@ algorithm_nav:
         url: /algorithm/0108.-将有序数组转换为二叉搜索树/
       - title: 538. 把二叉搜索树转换为累加树
         url: /algorithm/0538.-把二叉搜索树转换为累加树/
+      - title: 114. 二叉树展开为链表
+        url: /algorithm/0114.-二叉树展开为链表/
 
   - title: 回溯
     children:
