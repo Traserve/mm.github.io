@@ -502,7 +502,9 @@ blog_nav:
 
 essay_nav:
   - title: 测试
-    url: /essay/test/
+    children:
+      - title: 测试
+        url: /essay/test/
   - title: 读书
   - title: 生活
   - title: 职场
