@@ -181,6 +181,8 @@ algorithm_nav:
         url: /algorithm/0018.-四数之和/
       - title: 11. 盛最多水的容器
         url: /algorithm/0011.-盛最多水的容器/
+      - title: 209. 长度最小的子数组
+        url: /algorithm/0209.-长度最小的子数组/
 
   - title: 队列和栈
     children:
