@@ -80,6 +80,8 @@ id 列的编号是 select 的序列号，有几个 select 就有几个 id，并�
 
 ## 5. `type`
 
+详细信息见：[EXPLAIN Join Types](https://dev.mysql.com/doc/refman/8.1/en/explain-output.html#explain-join-types)
+
 此列表示关联类型或访问类型。也就是 MySQL 决定如何查找表中的行。
 
 依次从最优到最差分别为：`system` > `const` > `eq_ref` > `ref` > `range` > `index` > `ALL`。
@@ -141,6 +143,8 @@ key_len计算规则：
 5.7 之后的版本默认就有这个字段，不需要使用 explain extended 了。这个字段表示存储引擎返回的数据在 server 层过滤后，剩下多少满足查询的记录数量的比例，注意是百分比，不是具体记录数。
 
 ## 12. `Extra`
+
+详细信息见：[EXPLAIN Extra Information](https://dev.mysql.com/doc/refman/8.1/en/explain-output.html#explain-extra-information)
 
 此列是一些额外信息。常见的重要值如下：
 
