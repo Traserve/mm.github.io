@@ -51,19 +51,19 @@ id 列的编号是 select 的序列号，有几个 select 就有几个 id，并�
 | `UNCACHEABLE UNION`                                          | `cacheable` (`false`)        | The second or later select in a [`UNION`](https://dev.mysql.com/doc/refman/8.1/en/union.html) that belongs to an uncacheable subquery (see `UNCACHEABLE SUBQUERY`) |
 
 - **simple**：不包含子查询和 `union` 的简单查询
-  ![](images/explain1.png)
+  ![](https://raw.githubusercontent.com/Traserve/traserve.github.io/master/_posts/blog/MySQL/images/explain1.png)
 
 - **primary**：复杂查询中最外层的 `select`
 - **subquery**：包含在 `select` 中的子查询（不在 `from` 的子句中）
   用如下图展示 primary 和 subquery 类型
-  ![](images/explain2.png)
+  ![](https://raw.githubusercontent.com/Traserve/traserve.github.io/master/_posts/blog/MySQL/images/explain2.png)
 
 - **derived**：包含在 `from` 子句中的子查询。MySQL 会将查询结果放入一个临时表中，此临时表也叫衍生表。
-  ![](images/explain3.png)
+  ![](https://raw.githubusercontent.com/Traserve/traserve.github.io/master/_posts/blog/MySQL/images/explain3.png)
 
 - **union**：在 `union` 中的第二个和随后的 `select`，UNION RESULT 为合并的结果
 
-  ![](images/explain4.png)
+  ![](https://raw.githubusercontent.com/Traserve/traserve.github.io/master/_posts/blog/MySQL/images/explain4.png)
 
 ## 3. `table`
 
@@ -87,21 +87,21 @@ id 列的编号是 select 的序列号，有几个 select 就有几个 id，并�
 依次从最优到最差分别为：`system` > `const` > `eq_ref` > `ref` > `range` > `index` > `ALL`。
 
 - **NULL**：MySQL 能在优化阶段分解查询语句，在执行阶段不用再去访问表或者索引。
-  ![](images/explain5.png)
+  ![](https://raw.githubusercontent.com/Traserve/traserve.github.io/master/_posts/blog/MySQL/images/explain5.png)
 
 - **system**、**const**：MySQL对查询的某部分进行优化并把其转化成一个常量（可以通过 `show warnings` 命令查看结果）。system 是 const 的一个特例，表示表里只有一条元组匹配时为 system。
-  ![](images/explain6.png)
-  ![](images/explain7.png)
+  ![](https://raw.githubusercontent.com/Traserve/traserve.github.io/master/_posts/blog/MySQL/images/explain6.png)
+  ![](https://raw.githubusercontent.com/Traserve/traserve.github.io/master/_posts/blog/MySQL/images/explain7.png)
 - **eq_ref**：主键或唯一键索引被连接使用，最多只会返回一条符合条件的记录。简单的 `select` 查询不会出现这种 type。
-  ![](images/explain8.png)
+  ![](https://raw.githubusercontent.com/Traserve/traserve.github.io/master/_posts/blog/MySQL/images/explain8.png)
 - **ref**：相比 eq_ref，不使用唯一索引，而是使用普通索引或者唯一索引的部分前缀，索引和某个值比较，会找到多个符合条件的行。
-  ![](images/explain9.png)
+  ![](https://raw.githubusercontent.com/Traserve/traserve.github.io/master/_posts/blog/MySQL/images/explain9.png)
 - **range**：通常出现在范围查询中，比如 `in`、`between`、大于、小于等。使用索引来检索给定范围的行。
-  ![](images/explain10.png)
+  ![](https://raw.githubusercontent.com/Traserve/traserve.github.io/master/_posts/blog/MySQL/images/explain10.png)
 - **index**：扫描全索引拿到结果，一般是扫描某个二级索引，二级索引一般比较少，所以通常比 ALL 快一点。
-  ![](images/explain11.png)
+  ![](https://raw.githubusercontent.com/Traserve/traserve.github.io/master/_posts/blog/MySQL/images/explain11.png)
 - **ALL**：全表扫描，扫描聚簇索引的所有叶子节点。
-  ![](images/explain12.png)
+  ![](https://raw.githubusercontent.com/Traserve/traserve.github.io/master/_posts/blog/MySQL/images/explain12.png)
 
 ## 6. `possible_keys`
 
