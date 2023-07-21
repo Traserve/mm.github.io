@@ -329,25 +329,35 @@
    ========================================================================== */
 
 .wide .sidebar__right {
-  margin-bottom: 1em;
+  // margin-bottom: 1em;
+
+  // @include breakpoint($large) {
+  //   position: initial;
+  //   top: initial;
+  //   right: initial;
+  //   width: initial;
+  //   margin-right: initial;
+  //   padding-left: initial;
+  //   z-index: initial;
+
+  //   &.sticky {
+  //     float: none;
+  //   }
+  // }
+
+  // @include breakpoint($x-large) {
+  //   width: initial;
+  //   margin-right: initial;
+  // }
 
   @include breakpoint($large) {
-    position: initial;
-    top: initial;
-    right: initial;
-    width: initial;
-    margin-right: initial;
-    padding-left: initial;
-    z-index: initial;
-
-    &.sticky {
-      float: none;
-    }
+    position: relative;
+    float: right;
+    margin-right: 0;
   }
 
   @include breakpoint($x-large) {
-    width: initial;
-    margin-right: initial;
+    margin-right: 0;
   }
 }
 
