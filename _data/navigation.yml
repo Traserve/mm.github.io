@@ -467,6 +467,10 @@ blog_nav:
   - title: MyBatis
   - title: MySQL
     children:
+      - title: MySQL Explain
+        url: /blog/mysql/MySQL-Explain/
+      - title: MySQL SQL优化
+        url: /blog/mysql/MySQL-SQL优化/
       - title: MySQL InnoDB 引擎
         url: /blog/mysql/MySQL-InnoDB引擎/
       - title: MySQL 日志
@@ -477,10 +481,6 @@ blog_nav:
         url: /blog/mysql/MySQL-事务/
       - title: MySQL 幻读
         url: /blog/mysql/MySQL-幻读/
-      - title: MySQL Explain
-        url: /blog/mysql/MySQL-Explain/
-      - title: MySQL SQL优化
-        url: /blog/mysql/MySQL-SQL优化/
       - title: MySQL 分库分表
         url: /blog/mysql/MySQL-分库分表/
       - title: MySQL 集群
