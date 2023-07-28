@@ -84,7 +84,7 @@ algorithm_nav:
       - title: 238. 除自身以外数组的乘积
         url: /algorithm/0238.-除自身以外数组的乘积/
       - title: 380. O(1) 时间插入、删除和获取随机元素
-        url: /algorithm/0380.-O(1)-时间插入、删除和获取随机元素/
+        url: /algorithm/0380.-O(1)-时间插入-删除和获取随机元素/
 
   - title: 链表
     children:
@@ -138,7 +138,7 @@ algorithm_nav:
       - title: 895. 最大频率栈
         url: /algorithm/0895.-最大频率栈/
       - title: 380. O(1) 时间插入、删除和获取随机元素
-        url: /algorithm/0380.-O(1)-时间插入、删除和获取随机元素/
+        url: /algorithm/0380.-O(1)-时间插入-删除和获取随机元素/
 
   - title: 字符串
     children:
