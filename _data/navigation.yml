@@ -81,6 +81,8 @@ algorithm_nav:
         url: /algorithm/0059.-螺旋矩阵-II/
       - title: 189. 轮转数组
         url: /algorithm/0189.-轮转数组/
+      - title: 238. 除自身以外数组的乘积
+        url: /algorithm/0238.-除自身以外数组的乘积/
       - title: 380. O(1) 时间插入、删除和获取随机元素
         url: /algorithm/0380.-O(1)-时间插入、删除和获取随机元素/
 
