@@ -176,8 +176,8 @@ algorithm_nav:
         url: /algorithm/剑指-Offer-05.-替换空格/
       - title: 206. 反转链表
         url: /algorithm/0206.-反转链表/
-      - title: 19. 删除链表的倒数第N个节点
-        url: /algorithm/0019.-删除链表的倒数第N个节点/
+      - title: 19. 删除链表的倒数第 N 个节点
+        url: /algorithm/0019.-删除链表的倒数第-N-个节点/
       - title: 1721. 交换链表中的节点
         url: /algorithm/1721.-交换链表中的节点/
       - title: 3. 无重复字符的最长子串
